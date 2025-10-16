@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sophia Voice — AI Receptionist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Sophia Voice</div>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#demo">Demo</a>
+      <a href="#book">Book</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>AI Receptionist that answers, books, and logs leads</h1>
+    <p>24/7 calls and texts handled instantly. Auto-logged to your Google Sheets.</p>
+    <div class="cta-row">
+      <a class="btn primary" id="callBtn" href="#">Call Now</a>
+      <a class="btn" id="smsBtn" href="#">Text Sophia</a>
+      <a class="btn ghost" href="#book">Book a Demo</a>
+    </div>
+    <div id="status" class="status">Checking system status…</div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="card"><h3>Instant Voice & SMS</h3><p>Greets callers, answers texts, and captures every lead.</p></div>
+    <div class="card"><h3>Live Sheets Logging</h3><p>All conversations saved to your Google Sheet in real time.</p></div>
+    <div class="card"><h3>Owner Alerts</h3><p>Get an instant SMS when a new lead arrives.</p></div>
+    <div class="card"><h3>Always On</h3><p>Uptime monitoring and self-ping keep Sophia awake 24/7.</p></div>
+  </section>
+
+  <section id="demo" class="demo">
+    <h2>Try a sample message</h2>
+    <form id="tryForm">
+      <input id="tryMsg" type="text" placeholder="Type a message…" required>
+      <button class="btn primary" type="submit">Open SMS</button>
+    </form>
+    <p class="hint">Opens your SMS app to text Sophia.</p>
+  </section>
+
+  <section id="book" class="book">
+    <h2>Book a 10-minute demo</h2>
+    <div class="cal">
+      <iframe id="calFrame" src="" frameborder="0"></iframe>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Sophia Voice</div>
+    <a href="mailto:hello@sophiavoice.ai">hello@sophiavoice.ai</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
