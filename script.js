@@ -1,7 +1,7 @@
 const CONFIG={
   PHONE:"+18773781832",
   STATUS_URL:"https://sophia-voice.onrender.com/status",
-  BOOKING_LINK:"https://calendly.com/yourname/intro"
+  BOOKING_LINK:"https://calendly.com/mbayingana777/call-with-sophia"
 };
 
 document.getElementById("year").textContent=new Date().getFullYear();
@@ -30,3 +30,4 @@ f.addEventListener("submit",(e)=>{
 });
 
 document.getElementById("calFrame").src=CONFIG.BOOKING_LINK;
+
